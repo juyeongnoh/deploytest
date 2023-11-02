@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: frontend1
-          image: [여기에 frontend1 이미지 주소 입력]
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_4d25686e620b
           ports:
             - containerPort: 3000
         - name: frontend2
-          image: [여기에 frontend2 이미지 주소 입력]
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_74f1d057edea
           ports:
             - containerPort: 3000
 
