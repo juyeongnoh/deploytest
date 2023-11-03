@@ -20,7 +20,7 @@ spec:
         - name: frontend2
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_70aa4e4237f7
           ports:
-            - containerPort: 3000
+            - containerPort: 3001
 
 ---
 apiVersion: v1
@@ -38,7 +38,7 @@ spec:
     - name: frontend2-port
       protocol: TCP
       port: 3001
-      targetPort: 3000
+      targetPort: 3001
 
 ---
 apiVersion: networking.k8s.io/v1
