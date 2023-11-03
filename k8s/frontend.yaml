@@ -18,7 +18,7 @@ spec:
           ports:
             - containerPort: 3000
         - name: frontend2
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_74f1d057edea
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_70aa4e4237f7
           ports:
             - containerPort: 3000
 
